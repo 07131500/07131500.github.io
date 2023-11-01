@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/default.js"></script>
+    <link href="css/default.css" rel="stylesheet" />
+    <title>Default</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <form id="form1">
+        <div>
+            <table>
+                <tr>
+                    <td width="150"></td>
+                    <td>複製方法</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td width="">方法模式(void stirng int)</td>
+                    <td width=""><input type="text" id="txtMode"  width="67" /></td>
+                    <td width="70">複製次數:</td>
+                    <td>
+                        <select ID="drpNumbers">
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table >
+                <tr>
+                    <td>要複製的方法</td>
+                    <td>產出複製方法</td>
+                </tr>
+                <tr>
+                    <td><textarea id="txtInput" rows="12" cols="25"  ></textarea></td>
+                    <td><textarea id="txtOutput" rows="12" cols="25" ></textarea></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td width="150"></td>
+                    <td><input type="button" ID="btnStart" value="開始" OnClick="btnStart_Click()" /></td>
+                </tr>
+            </table>
+
+
+        </div>
+    </form>
+</body>
+</html>
