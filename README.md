@@ -1,7 +1,9 @@
 # 07131500.github.io
 
-輸入模式: void/int/bool/string
+https://07131500.github.io/CopyFunction/index.html
 
+
+輸入模式: void/int/bool/string
 
 複製方法名稱  
 input void a(){}  output void a0(){} 
